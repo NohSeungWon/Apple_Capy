@@ -1,0 +1,150 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0 }
+body, input, textarea, select, button, table { font-size:14px; line-height:1.25em; font-family:'나눔고딕', NanumGothic, Helvetica, AppleGothic, Sans-serif, ngwoff, ngeot, '굴림', gulrem; }
+html, body { height: 100%; padding:0; margin:0; }
+img, fieldset { border:0 }
+ul, ol { list-style:none }
+em, address { font-style:normal }
+a { text-decoration:none }
+a:hover, a:active, a:focus { text-decoration:underline }
+
+header
+{
+  width: 100%
+}
+.top-navi /* */
+{
+  display: flex;
+  list-style: none;
+  background-color: rgba(8, 9, 9, 0.99);
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.home
+{
+  padding-left: 15px;
+}
+.top-navi li
+{
+  width: 100%;
+}
+.top-navi li a
+{
+    color: rgb(252, 252, 249);
+}
+
+.roll ul
+{
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.99);
+  padding:10px;
+}
+.roll:hover ul
+{
+  display: block;
+}
+.roll:hover ul li
+{
+  padding-top: 5px;
+}
+.products
+{
+  width: 100%;
+}
+.products ul
+{
+  background-color: rgba(8, 9, 9, 0.79);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.products li
+{
+  align-items: center;
+  color: rgb(252, 252, 249);
+  padding: 30px 20px 30px 20px;
+}
+.products li a
+{
+  color: rgb(252, 252, 249);
+}
+.main-banner /* 메인 배너 하는 곳 */
+{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  height: 40%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.99);
+}
+.main-banner li
+{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  justify-content: center;
+  color: #ffe5db;
+}
+.main_product_name a
+{
+  font-size: 50px;
+  color: #ffe5db;
+}
+.main_product_text a
+{
+  font-size: 30px;
+  color: #ffe5db;
+}
+.main_introduce
+{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  height: 40%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.99);
+  padding-top: 8%;
+  padding-bottom: 5%;
+}
+.main_introduce li
+{
+  font-size: 30px;
+  color: #ffe5db;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.main_introduce_small
+{
+  font-size: 20px;
+  color: rgb(181, 181, 181);
+  text-align: center;
+  padding: 10px;
+}
+.img_section
+{
+  height: 90%;
+  background-image: url("/img/design_film_large_xr.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img_section li
+{
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.desc
+{
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.99);
+}

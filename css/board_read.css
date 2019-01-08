@@ -1,0 +1,254 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0 }
+body, input, textarea, select, button, table { font-size:14px; line-height:1.25em; font-family:'나눔고딕', NanumGothic, Helvetica, AppleGothic, Sans-serif, ngwoff, ngeot, '굴림', gulrem; }
+html, body { height: 100%; padding:0; margin:0; }
+img, fieldset { border:0 }
+ul, ol { list-style:none }
+em, address { font-style:normal }
+a { text-decoration:none }
+a:hover, a:active, a:focus { text-decoration:underline }
+
+header
+{
+  width: 100%
+}
+.top-navi /* */
+{
+  display: flex;
+  list-style: none;
+  background-color: rgba(8, 9, 9, 0.99);
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.home
+{
+  padding-left: 15px;
+}
+.top-navi li
+{
+  width: 100%;
+}
+.top-navi li a
+{
+    color: rgb(252, 252, 249);
+}
+
+.roll ul
+{
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.99);
+  padding:10px;
+}
+.roll:hover ul
+{
+  display: block;
+}
+.roll:hover ul li
+{
+  padding-top: 5px;
+}
+.products
+{
+  width: 100%;
+}
+
+.products ul
+{
+  background-color: rgba(8, 9, 9, 0.79);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.products li
+{
+  align-items: center;
+  color: rgb(252, 252, 249);
+}
+.products li a
+{
+  color: rgb(252, 252, 249);
+}
+.board
+{
+  border: 2px solid rgb(171, 171, 171);
+  margin: 5% 5% 0% 5%;
+  display: flex;
+  flex-direction: column;
+}
+.top
+{
+  padding-top: 20px;
+  border-bottom: 2px double rgb(212, 212, 212);
+  padding-bottom: 20px;
+}
+.title
+{
+  padding-left: 10px;
+  font-size: 20px;
+  color: rgb(107, 191, 106);
+}
+.date
+{
+  float: right;
+  padding-top: 2px;
+}
+.top a
+{
+  float: right;
+  margin-right: 10px;
+  padding-top: 10px;
+  color: rgb(62, 61, 62);
+}
+.text_show
+{
+  display: flex;
+  flex-direction: column;
+}
+.id
+{
+  margin-top: 1%;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  border: 3px dotted rgb(114, 161, 181);
+  width: 6%;
+}
+.texture
+{
+  margin-top: 1%;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.board_view
+{
+  list-style: none;
+  background-color: rgb(236, 236, 236);
+  margin: 0% 6% 0% 6%;
+}
+.board_view li
+{
+  margin-top: 1%;
+  margin-left: 2%;
+  width: 15;
+}
+.board_view_top
+{
+  display: flex;
+}
+.id_re
+{
+  width: 5%;
+  text-align: center;
+  border: 2px solid rgb(163, 186, 245);
+}
+.titie_re
+{
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 1%;
+  border-bottom: 1px dotted rgb(87, 168, 131);
+}
+.board_re
+{
+  background-color: rgb(236, 236, 236);
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.input_text
+{
+  margin-left: 2%;
+  width: 88%;
+  height: 50px;
+}
+.input_btn
+{
+  font-size: 20px;
+  background-color: rgb(61, 166, 189);
+  height: 50px;
+  color: #fff;
+}
+.input_btn_re
+{
+  font-size: 20;
+  background-color: rgb(61, 166, 189);
+  height: 35px;
+  color: #fff;
+}
+.check_re_fix
+{
+  margin-top: 10px;
+}
+.check_re_delete
+{
+  margin-top: 10px;
+}
+.re_btn
+{
+  background-color: rgb(236, 236, 236);
+  border: 1px solid rgb(236, 236, 236);
+}
+.re_plus
+{
+  margin-top: 10px;
+}
+.re_plus_btn
+{
+  margin-top: 9px;
+  background-color: rgb(236, 236, 236);
+  border: 1px solid rgb(236, 236, 236);
+}
+.board_re_re_form
+{
+  background-color: rgb(236, 236, 236);
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.input_text_re
+{
+  margin-left: 5%;
+  width: 77%;
+  height: 40px;
+}
+.texture_re_re
+{
+  margin-left: 5%;
+  width: 88%;
+  height: 40px;
+}
+.board_view_re
+{
+  list-style: none;
+  background-color: rgb(236, 236, 236);
+  margin: 0% 6% 0% 6%;
+}
+.board_view_re li
+{
+  margin-top: 1%;
+  margin-left: 2%;
+  width: 15;
+}
+.board_view_top_re
+{
+  display: flex;
+}
+.id_re_re
+{
+  border: 2px dotted rgb(124, 192, 226);
+  width: 5%;
+  text-align: center;
+}
+.titie_re_re
+{
+  padding-left: 3%;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted rgb(124, 192, 226);
+}

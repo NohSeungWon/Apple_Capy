@@ -1,0 +1,178 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0 }
+body, input, textarea, select, button, table { font-size:14px; line-height:1.25em; font-family:'나눔고딕', NanumGothic, Helvetica, AppleGothic, Sans-serif, ngwoff, ngeot, '굴림', gulrem; }
+html, body { height: 100%; padding:0; margin:0; }
+img, fieldset { border:0 }
+ul, ol { list-style:none }
+em, address { font-style:normal }
+a { text-decoration:none }
+a:hover, a:active, a:focus { text-decoration:underline }
+
+header
+{
+  width: 100%
+}
+.top-navi /* */
+{
+  display: flex;
+  list-style: none;
+  background-color: rgba(8, 9, 9, 0.99);
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.home
+{
+  padding-left: 15px;
+}
+.top-navi li
+{
+  width: 100%;
+}
+.top-navi li a
+{
+    color: rgb(252, 252, 249);
+}
+
+.roll ul
+{
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.99);
+  padding:10px;
+}
+.roll:hover ul
+{
+  display: block;
+}
+.roll:hover ul li
+{
+  padding-top: 5px;
+}
+.products
+{
+  width: 100%;
+}
+
+.products ul
+{
+  background-color: rgba(8, 9, 9, 0.79);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.products li
+{
+  align-items: center;
+  color: rgb(252, 252, 249);
+}
+.products li a
+{
+  color: rgb(252, 252, 249);
+}
+.back
+{
+  background-color: rgb(237, 235, 235);
+  width: 100%;
+  height: 50px;
+}
+h1
+{
+  font-size: 25px;
+  margin-left: 60px;
+  margin-top: 90px;
+  padding-bottom: 10px;
+  width: 90%;
+  border-bottom: 1px solid rgb(209, 209, 209);
+}
+.login_section
+{
+  display: flex;
+  margin-top: 5%;
+  margin-left: 17%;
+}
+.login_section li
+{
+  list-style: none;
+  margin:0px;
+}
+.login_pw
+{
+  margin-right: 13%;
+  margin-top: 10%;
+  padding: 10px;
+  width: 200px;
+}
+.login_id
+{
+  margin-right: 13%;
+  margin-top: 10%;
+  padding: 10px;
+  width: 200px;
+}
+.input
+{
+  margin-right: 10%;
+}
+.input li
+{
+  padding-top: 5%;
+}
+.input form
+{
+  display: flex;
+  flex-direction: column;
+}
+.input p
+{
+  font-size: 20px;
+}
+.input input
+{
+
+}
+.input button
+{
+  margin-top: 15px;
+  border: 1px solid rgb(70, 130, 166);
+  background-color: rgb(70, 130, 166);
+  color: #fff;
+  width: 80px;
+  height: 30px;
+  margin-left: 64%;
+}
+.come_in
+{
+  width: 40%;
+  border-left: 1px solid rgb(209, 209, 209);
+  padding-left: 10%;
+}
+.come_in p
+{
+  font-size: 20px;
+  line-height: 110%;
+}
+.come_in li
+{
+  margin-left: 5%;
+  margin-top: 5%;
+  list-style: circle;
+  font-size: 18px;
+  margin-bottom: 5%;
+  color: rgb(154, 151, 151);
+}
+.come_in a
+{
+  padding-top: 10px;
+  font-size: 13px;
+  color: rgb(70, 130, 166);
+}
+
+.bot
+{
+  margin-left: 13%;
+  width: 70%;
+  height: 70%;
+}
