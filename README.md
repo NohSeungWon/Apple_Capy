@@ -17,8 +17,13 @@
 
 [사용기술]
 
-Language: PHP, Javascript, jqery, HTML, CSS,
+Language: PHP, Javascript, jqery, HTML, CSS
+
 OS:  Linux(Ubuntu)
+
 Web Server:  apache2
+
 Database: mysql
+
 library: goole dialogflow 챗봇
+
